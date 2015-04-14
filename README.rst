@@ -22,20 +22,21 @@ Installing imgur-uploader
 
 Installing imgur-uploader is easy. It runs on versions of Python >=2.7 or >=3.3.
 
-If you just want to use imgur-uploader, and not develop for it, you can just ``pip install imgur-uploader``.
+If you just want to use imgur-uploader, you can just ``pip install imgur-uploader``.
 
 If you want to tweak or enhance imgur-uploader, follow these instructions:
 
 #. Clone this repository
 #. Install the tool with ``pip install -e .``
-#. Set the ``IMGUR_API_ID`` and ``IMGUR_API_SECRET`` environment variables using your client's credentials
 
 Using imgur-uploader
 ^^^^^^^^^^^^^^^^^^^^
 
+First, set the ``IMGUR_API_ID`` and ``IMGUR_API_SECRET`` environment variables in your terminal session, using your client's credentials.
+
 Upload an image by running ``imgur-uploader path/to/my.gif``
 
-The tool return a shortened link to your uploaded gif upon completion::
+The tool will return a shortened link to your uploaded gif upon completion::
 
     Uploading file output.gif
     ...
