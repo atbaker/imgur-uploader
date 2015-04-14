@@ -10,9 +10,9 @@ def read(*paths):
 
 setup(
     name='imgur-uploader',
-    version='0.1.0',
+    version='0.1.1',
     description='A simple command line client for uploading files to Imgur.',
-    long_description=read('README.md'),
+    long_description=read('README.rst'),
     url='https://github.com/atbaker/imgur-uploader',
     license='MIT',
     author='Andrew Tork Baker',
