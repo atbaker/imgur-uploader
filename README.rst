@@ -22,6 +22,10 @@ Installing imgur-uploader
 
 Installing imgur-uploader is easy. It runs on versions of Python >=2.7 or >=3.3.
 
+If you just want to use imgur-uploader, and not develop for it, you can just ``pip install imgur-uploader``.
+
+If you want to tweak or enhance imgur-uploader, follow these instructions:
+
 #. Clone this repository
 #. Install the tool with ``pip install -e .``
 #. Set the ``IMGUR_API_ID`` and ``IMGUR_API_SECRET`` environment variables using your client's credentials
