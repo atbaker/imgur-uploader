@@ -38,6 +38,6 @@ Upload an image by running ``imgur-uploader path/to/my.gif``
 
 The tool will return a shortened link to your uploaded gif upon completion::
 
-    Uploading file output.gif
+    Uploading file my.gif
     ...
     File uploaded - see your gif at http://i.imgur.com/6WsQPpw.gif
